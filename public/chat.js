@@ -1,4 +1,4 @@
-var socket=io.connect('http://localhost:4000');
+var socket=io.connect();
 
 var message=document.querySelector('#message');
 var button=document.querySelector('#send');
